@@ -1,0 +1,31 @@
+.root {
+  display: grid;
+  column-gap: 57px;
+
+  grid-template-areas:
+    "F F F F  F F F F  D D D D"
+    "A A A S  S S S S  S S S S"
+    "Z Z Z Z  Z Z Z Z  Z Z T T";
+}
+
+.firstWordHeader {
+  grid-area: F;
+}
+
+.secondWordHeader {
+  grid-area: S;
+}
+
+.thirdWordHeader {
+  grid-area: T;
+}
+
+.description {
+  grid-area: D;
+  align-self: center;
+}
+
+.action {
+  grid-area: A;
+  align-self: center;
+}

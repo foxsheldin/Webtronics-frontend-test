@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header,
+.description {
+  text-align: center;
+}
+
+.header {
+  width: 543px;
+}
+
+.description {
+  width: 432px;
+  margin-top: 16px;
+}
+
+.technologies {
+  margin-top: 54px;
+  display: flex;
+  gap: 25px;
+}

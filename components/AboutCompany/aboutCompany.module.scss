@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  row-gap: 56px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 6fr 5fr 1fr;
+
+  &__mentor {
+    display: flex;
+    justify-content: center;
+  }
+}

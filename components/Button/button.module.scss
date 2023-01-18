@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.root {
+  padding: 24px 32px;
+
+  &.largeBtn {
+    min-width: 497px;
+  }
+
+  background: $linear2;
+  border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: $primary100;
+
+  &:hover {
+    color: $primary80;
+  }
+
+  &:active {
+    color: $clean;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+  }
+}
